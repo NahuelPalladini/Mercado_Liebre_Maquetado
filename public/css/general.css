@@ -1,0 +1,11 @@
+:root {
+    --tipografia: 'Roboto';
+}
+
+.home__body{
+    background-color: #EAC926;
+}
+
+body{
+    font-family: var(--tipografia);
+}

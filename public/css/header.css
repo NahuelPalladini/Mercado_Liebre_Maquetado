@@ -1,0 +1,27 @@
+.home__header{
+    width: 500px;
+    right: 40px;
+    padding: 15px;
+    font-family: var(--tipografia);
+    
+}
+
+.home__header h3{
+    font-size: 18px;
+    font-weight: 12px;
+}
+
+.home__header ul li{
+    font-size: 18px;
+    font-weight: 12px;
+    list-style: none;
+    
+}
+
+.main__seccion h3{
+    font-size: 24px;
+}
+
+.main__seccion p {
+    font-size: 16px;
+}
