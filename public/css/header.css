@@ -1,8 +1,9 @@
 .home__header{
-    width: 500px;
+    width: 400px;
     right: 40px;
     padding: 15px;
     font-family: var(--tipografia);
+    font-size: 12px;
     
 }
 
@@ -16,6 +17,12 @@
     font-weight: 12px;
     list-style: none;
     
+}
+
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .main__seccion h3{

@@ -9,3 +9,16 @@
 body{
     font-family: var(--tipografia);
 }
+
+.bars{
+    padding: 100px;
+    text-align: center;
+}
+
+.cuadrado {
+    width: 20px;           /* Ancho de 150 píxeles */
+    height: 20px;          /* Alto de 150 píxeles */
+    background: #1259c3;        /* Fondo de color rojo */
+    border: 1px solid #1259c3; /* Borde color negro y de 1 píxel de grosor */
+    
+  }
