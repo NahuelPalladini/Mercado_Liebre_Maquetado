@@ -1,5 +1,5 @@
 .home__header{
-    width: 400px;
+    width: 200px;
     right: 40px;
     padding: 15px;
     font-family: var(--tipografia);
@@ -13,9 +13,10 @@
 }
 
 .home__header ul li{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 12px;
     list-style: none;
+    padding-inline-start: 10px;
     
 }
 
