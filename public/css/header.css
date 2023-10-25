@@ -1,35 +1,44 @@
-.home__header{
-    width: 200px;
-    right: 40px;
-    padding: 15px;
-    font-family: var(--tipografia);
-    font-size: 12px;
-    
+.header__logo{
+    width: 50%;
+    padding-left: 7%;
+    padding-top: 5%
 }
 
-.home__header h3{
-    font-size: 18px;
-    font-weight: 12px;
+.header__logo__busqueda{
+    padding: 2px;
+    font-size: 10px;
+    background-color: #ebebeb;
+    width: 1em;
+    border: 1px solid black;
+}
+ 
+.header__seccion ul{
+  padding: 0;
 }
 
-.home__header ul li{
-    font-size: 16px;
-    font-weight: 12px;
-    list-style: none;
-    padding-inline-start: 10px;
-    
+.hamburguesa{
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.cuadrado {
+  width: 4px;
+  height: 4px;
+  background-color: #03264c;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+  border-radius: 10px;
+  align-content: flex-end;
 }
 
-a:-webkit-any-link {
-    color: black;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.main__seccion h3{
-    font-size: 24px;
-}
-
-.main__seccion p {
-    font-size: 16px;
+.fa-bars:before, .fa-navicon:before { /* Este codigo lo sque de "Inspeccionar" de google */
+  content: "\f0c9";
+  color: #ffffff;
+  font-size: 24px;
 }

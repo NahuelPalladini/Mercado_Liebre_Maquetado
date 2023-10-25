@@ -1,28 +1,74 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
 :root {
     --tipografia: 'Roboto';
 }
 
-.home__body{
+.home{
     background-color: #EAC926;
+    margin: 0;
+    height: 325px;
+    width: 100%;
 }
 
 body{
     font-family: var(--tipografia);
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #ebebeb;
 }
 
-.bars{
-    padding: 100px;
-    text-align: center;
+img{
+    width: 100%;
 }
 
-.cuadrado {
-    width: 30px;           /* Ancho de 150 píxeles */
-    height: 25px;          /* Alto de 150 píxeles */
-    background: #1259c3;        /* Fondo de color rojo */
-    border: 1px solid #1259c3; /* Borde color negro y de 1 píxel de grosor */
-    text-align: center;
-    border: 10px;
-    margin: 0 auto;
-    display: grid;
-    text-align: center;
-  }
+input{
+    margin-top: 6px;
+    margin-bottom: 3px;
+    width: 194px;
+    height: 16px;
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+li {
+    list-style: none; /* viñetas */
+    margin-left: 0%;
+}
+
+a {
+    padding: 1px;
+    text-decoration: none; /* Subrayado */
+    color: #141414;
+    font-size: 12px;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 48px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 24px;
+    margin-block-start: 1em;
+    margin-inline-start: 43px;
+    font-weight: bold;
+}
+h4{
+   font-size: 16px; 
+}
+
+p {
+    font-size: 16px;
+}
