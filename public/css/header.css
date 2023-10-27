@@ -53,3 +53,19 @@
   margin: 4px;
   
 }
+
+@media (min-width: 361px){
+  .header__seccion ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header {
+    height: 489px;
+    width: 100%;
+    }
+
+  .hamburguesa {
+    display: none;
+  }
+}

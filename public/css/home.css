@@ -75,3 +75,12 @@ footer{
     margin-block-start: 2em;
     margin-inline-start: 10px;
 } 
+
+@media (min-width: 361px){
+    .main .main_section {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+}
