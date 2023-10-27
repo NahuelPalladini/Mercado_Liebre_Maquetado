@@ -4,41 +4,43 @@
     padding-top: 5%
 }
 
+.header__logo input {
+  border: 1px solid var(--colorGrisOscuro);
+  border-radius: 3px;
+}
+
 .header__logo__busqueda{
-    padding: 2px;
+     padding: 2px;
     font-size: 10px;
-    background-color: #ebebeb;
+    background-color: var(--colorGris);
     width: 1em;
-    border: 1px solid black;
+    border: 1px solid var(--colorGrisOscuro); 
+    border-radius: 3px;
 }
  
 .header__seccion ul{
   padding: 0;
 }
 
-.hamburguesa{
+.hamburguesa {
   display: flex;
-  align-content: space-around;
   justify-content: center;
   align-items: center;
-  flex-wrap: nowrap;
-  flex-direction: row;
-}
-.cuadrado {
-  width: 4px;
-  height: 4px;
-  background-color: #03264c;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 18px;
-  border-radius: 10px;
-  align-content: flex-end;
 }
 
-.fa-bars:before, .fa-navicon:before { /* Este codigo lo sque de "Inspeccionar" de google */
-  content: "\f0c9";
+.header__bars {
+  background-color: var(--colorAzul);
+  padding: 5px 3px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  flex-wrap: wrap;
+  width: 36px;
+  height: 42px;
+  box-sizing: border-box;
+}
+
+.header__bars i {
   color: #ffffff;
-  font-size: 24px;
+  margin: 4px;
+  
 }

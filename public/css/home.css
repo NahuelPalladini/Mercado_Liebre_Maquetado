@@ -23,7 +23,7 @@ main {
 
 footer{
     background-color: #ffffff;
-    margin: 10px; /* ja */
+    margin: 10px; 
 }
  .footer_section {
     padding: 15px;
@@ -33,7 +33,7 @@ footer{
 }
 
 .footer_section i {
-    color: #1259c3;
+    color: var(--colorCeleste);
     display: flex;
     height: 1px;
     align-items: center;

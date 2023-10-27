@@ -6,10 +6,16 @@
 
 :root {
     --tipografia: 'Roboto';
+    --colorAmarillo: #EAC926;
+    --colorAzul: #03264C;
+    --colorCeleste: #1259c3;
+    --colorGrisOscuro: #666;
+    --colorGris: #ebebeb;
+    --colorVerde: #30b54a;
 }
 
-.home{
-    background-color: #EAC926;
+.header{
+    background-color: var(--colorAmarillo);
     margin: 0;
     height: 325px;
     width: 100%;
