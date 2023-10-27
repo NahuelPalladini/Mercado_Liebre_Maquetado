@@ -1,6 +1,7 @@
 main {
     background-color: rgb(255, 255, 255);
-    margin: 10px;
+    margin: 16px;
+    /* gap: 10px; */
 }
 
 .main .main_section {

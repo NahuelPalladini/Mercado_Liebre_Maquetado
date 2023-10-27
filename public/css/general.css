@@ -1,8 +1,6 @@
-/* *{
-    margin: 0;
-    padding: 0;
+*{
     box-sizing: border-box;
-} */
+} 
 
 :root {
     --tipografia: 'Roboto';
@@ -14,13 +12,6 @@
     --colorVerde: #30b54a;
 }
 
-.header{
-    background-color: var(--colorAmarillo);
-    margin: 0;
-    height: 325px;
-    width: 100%;
-}
-
 body{
     font-family: var(--tipografia);
     font-size: 12px;
@@ -28,6 +19,12 @@ body{
     margin: 0;
     box-sizing: border-box;
     background-color: #ebebeb;
+}
+
+main {
+    width: 90%;
+    padding: 10px;
+    gap: 10px;
 }
 
 img{

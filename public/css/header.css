@@ -1,3 +1,11 @@
+.header{
+  background-color: var(--colorAmarillo);
+  margin: 0;
+  height: 325px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .header__logo{
     width: 50%;
     padding-left: 7%;
@@ -17,7 +25,7 @@
     border: 1px solid var(--colorGrisOscuro); 
     border-radius: 3px;
 }
- 
+
 .header__seccion ul{
   padding: 0;
 }
