@@ -4,6 +4,12 @@ main {
     /* gap: 10px; */
 }
 
+.main_banner{
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+}
+
 .main .main_section {
     margin: 2px;
     padding: 1px;
@@ -11,8 +17,16 @@ main {
     
 }
 
-.main_section p {
+.main_section_precio {
    font-size: 18px;
+   margin: 0;
+}
+
+.main_descuento {
+    color: var(--colorVerde);
+    padding: 0;
+    margin: 0;
+    font-size: 16px
 }
 
 .basado_ultima_compra {
@@ -21,6 +35,8 @@ main {
     margin-inline-start: 10px;
     font-weight: bold;
 }
+
+
 
 footer{
     background-color: #ffffff;
