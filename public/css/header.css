@@ -38,6 +38,18 @@
   align-items: center;
 }
 
+.alineacion {
+  display: flex;
+  height: 30px;
+  align-items: center;
+}
+
+.header__logo__busqueda  {
+  margin-left: 5px;
+  height: 17px;
+  margin-top: 2px;
+}
+
 .header__bars {
   background-color: var(--colorCeleste);
   padding: 5px 3px;
