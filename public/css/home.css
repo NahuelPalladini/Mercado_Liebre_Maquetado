@@ -11,7 +11,7 @@ main {
 }
 
 .main .main_section {
-    margin: 2px;
+    margin: 3px;
     padding: 1px;
     background-color: #f7f7f7;
     
@@ -43,19 +43,19 @@ main {
 
 .camion {
     border: 1px solid var(--colorVerde);
-    border-radius: 50%; 
-    width: 60px;
-    height: 60px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
     padding: 7px;
-    font-size: 20px;
+    font-size: 13px;
     color: var(--colorVerde);
+    position: absolute;
+    right: 45px;
 }
 
 .container {
-    margin: 15px;
+    margin: 10px;
 }
-
-
 
 footer{
     background-color: #ffffff;

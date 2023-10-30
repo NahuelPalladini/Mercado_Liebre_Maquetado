@@ -2,7 +2,7 @@
 .header{
   background-color: var(--colorAmarillo);
   margin: 0;
-  height: 236px;
+  height: 217px;
   width: 100%;
   box-sizing: border-box;
 }
@@ -14,17 +14,26 @@
 }
 
 .header__logo input {
-  border: 1px solid var(--colorGrisOscuro);
+  border: 1px solid #ffffff;
   border-radius: 3px;
+  width: 80%;
+  height: 25px;
+  display: flex;
 }
 
 .header__logo__busqueda{
      padding: 2px;
      font-size: 10px;
-     background-color: var(--colorGris);
+     background-color: #ffffff;
      width: 1.8em;
-     border: 1px solid var(--colorGrisOscuro);
+     border: 1px solid #ffffff;
      border-radius: 3px;
+     align-items: center;
+}
+
+.text {
+  font-size: 9.5px;
+  padding: 7px;
 }
 
 .header__seccion ul{
@@ -42,22 +51,31 @@
   display: flex;
   height: 30px;
   align-items: center;
+  position: relative;
+  left: 150px;
+  bottom: 38px;
 }
 
 .header__logo__busqueda  {
-  margin-left: 5px;
-  height: 17px;
-  margin-top: 2px;
+  margin-left: -4px;
+  height: 25px;
+  margin-top: 3px;
+  border: 1px solid #ffffff;
+}
+
+.header__logo__busqueda i {
+  padding-top: 4px;
+  color: var(--colorGrisOscuro);
 }
 
 .header__bars {
   background-color: var(--colorCeleste);
-  padding: 5px 3px;
+  padding: 0.9px 3px;
   border-radius: 5px;
   font-size: 1.5rem;
   flex-wrap: wrap;
   width: 36px;
-  height: 42px;
+  height: 33px;
   box-sizing: border-box;
 }
 

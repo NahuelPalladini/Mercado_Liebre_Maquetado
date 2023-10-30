@@ -31,8 +31,8 @@ main {
 
 img{
     width: 100%;
-    /* display: flex; */
-    /* align-items: flex-end; */
+    /* display: flex;
+    align-items: center; */
 }
 
 input{
@@ -59,11 +59,10 @@ a {
 h5 {
     display: block;
     font-size: 0.83em;
-    margin-block-start: 1em;
+    margin-block-start: 1px; 
     margin-block-end: 1em;
-    margin-inline-start: 48px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+    margin-inline-start: 60px;
+    padding-bottom: 10px;
 }
 
 h3{
