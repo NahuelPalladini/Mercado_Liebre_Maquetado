@@ -41,21 +41,29 @@ main {
  box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
-.camion {
-    border: 1px solid var(--colorVerde);
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    padding: 7px;
-    font-size: 13px;
-    color: var(--colorVerde);
-    position: absolute;
-    right: 45px;
+/* .camion {
+   position: relative;
+} */
+
+.container i {
+    display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        right: 20px;
+        top: -20px;
+        color: #39b54a;
 }
 
 .container {
     margin: 10px;
-}
+    position: relative;
+} 
 
 footer{
     background-color: #ffffff;

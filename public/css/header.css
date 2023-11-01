@@ -16,9 +16,10 @@
 .header__logo input {
   border: 1px solid #ffffff;
   border-radius: 3px;
-  width: 80%;
+  width: 80%; 
   height: 25px;
   display: flex;
+  /* overflow: hidden; */
 }
 
 .header__logo__busqueda{
