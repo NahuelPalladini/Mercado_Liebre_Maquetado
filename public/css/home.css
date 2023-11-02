@@ -27,6 +27,8 @@ main {
     padding: 0;
     margin: 0;
     font-size: 16px;
+    position: relative;
+    top: 1px;
 }
 
 .basado_ultima_compra {
@@ -56,15 +58,22 @@ main {
     border-radius: 50%;
     position: absolute;
     right: 20px;
-    top: -29px;
+    top: -23px;
     color: #39b54a;
 }
 
 .container {
-    margin: 10px;
+    display: flex;
+    margin: 6px;
     position: relative;
-    
+    padding: 10px;
+    gap: 10px;
 } 
+
+.main_descuento {
+    flex-direction: row;
+    gap: 10px;
+}
 
 footer{
     background-color: #ffffff;
@@ -121,6 +130,8 @@ footer{
         flex-direction: column;
         margin: auto;
     }
+
+    
 
    
 
