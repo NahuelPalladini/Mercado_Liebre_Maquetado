@@ -16,20 +16,24 @@
 .header__logo input {
   border: 1px solid #ffffff;
   border-radius: 3px;
-  width: 80%; 
-  height: 25px;
+  width: 80%;
+  height: 31px;
   display: flex;
-  /* overflow: hidden; */
+  position: relative;
+  right: 100px;
+  /* top: 10px; */
 }
 
-.header__logo__busqueda{
+.header__logo__busqueda {
      padding: 2px;
      font-size: 10px;
      background-color: #ffffff;
      width: 1.8em;
-     border: 1px solid #ffffff;
+     border: 1px solid #ffffff; 
      border-radius: 3px;
      align-items: center;
+     position: relative;
+     right: 100px;
 }
 
 .text {
@@ -50,22 +54,22 @@
 
 .alineacion {
   display: flex;
-  height: 30px;
+  height: 33px;
   align-items: center;
   position: relative;
-  left: 150px;
-  bottom: 38px;
+  left: 260px;
+  bottom: 39px;
 }
 
 .header__logo__busqueda  {
   margin-left: -4px;
-  height: 25px;
+  height: 31px;
   margin-top: 3px;
   border: 1px solid #ffffff;
 }
 
 .header__logo__busqueda i {
-  padding-top: 4px;
+  padding-top: 7px;
   color: var(--colorGrisOscuro);
 }
 
@@ -88,13 +92,25 @@
 
 /* TABLET 768 X 768 */
 @media (min-width: 361px){
+  .header__logo{
+    width: 40%;
+    padding-left: 2%;
+    padding-top: 3%;
+}
+
+.header__logo img {
+  width: 80%
+ }
+  
   .header__seccion ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 10px;
+    position: relative;
   }
 
   .header {
-    height: 459px;
+    height: 350px;
     width: 100%;
     }
 
@@ -103,25 +119,35 @@
   }
 
   header h5 {
-    text-align: center;
-  }
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 65px;
+    right: 21px;
 
   .alineacion {
     display: flex;
     height: 30px;
     align-items: center;
+    position: relative;
+    left: 251px;
+    bottom: 55px;
+    width: 250px;
   }
 
   .header__logo__busqueda  {
-    margin-left: 2px;
-    height: 20px;
-    margin-top: 2px;
+    margin-left: 5px;
+    height: 25px;
+    margin-top: px;
   }
 
-  input {
+  .text {
+    font-size: 15px;
+  
+  }
+    input {
     height: 20px;
   }
-
 }
 
 /* PORTATIL 1040 X 768 */
@@ -163,4 +189,5 @@ h5{
     height: 580px;
     width: 100%;
     }
+}
 }

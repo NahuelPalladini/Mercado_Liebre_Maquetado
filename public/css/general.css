@@ -35,14 +35,14 @@ img{
     align-items: center; */
 }
 
-input{
+ input{
     margin-top: 6px;
     margin-bottom: 3px;
     width: 194px;
     height: 16px;
     font-size: 15px;
     border: 1px solid black;
-}
+} 
 
 li {
     list-style: none; /* viñetas */
@@ -68,9 +68,10 @@ h5 {
 h3{
     font-size: 24px;
     margin-block-start: 1em;
-    margin-inline-start: 43px;
+    margin-inline-start: -2px;
     font-weight: bold;
     color: var(--colorGrisOscuro);
+    text-align: center;
 }
 h4{
    font-size: 16px; 
