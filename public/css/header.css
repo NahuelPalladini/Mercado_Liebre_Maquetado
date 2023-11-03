@@ -21,7 +21,6 @@
   display: flex;
   position: relative;
   right: 100px;
-  /* top: 10px; */
 }
 
 .header__logo__busqueda {
@@ -94,6 +93,65 @@
 @media (min-width: 768px){
 
   .header{
-    height: 150px;
+    height: 237px;
+    position: relative;
   }
+
+  .header__logo{
+    width: 40%;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+.header__logo input {
+  width: 60%;
+  height: 25px;
+}
+
+.header__logo__busqueda  {
+  margin-left: -4px;
+  height: 25px;
+}
+
+.header__logo__busqueda i {
+  bottom: 3px;
+  position: relative;
+}
+
+.alineacion {
+  display: flex;
+  height: 33px;
+  align-items: center;
+  position: relative;
+  left: 416px;
+  bottom: 55px;
+}
+
+.hamburguesa {
+  display: none;
+}
+
+.header__seccion {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  position: relative;
+  bottom: 25px;
+}
+
+.header__seccion ul{
+   display: flex;
+}
+
+.header__seccion ul li{
+  margin: 4px;
+}
+
+.compra_en_cuotas {
+  display: flex;
+  justify-content: end;
+ position: relative;
+ right: 20px;
+ bottom: 75px;
+}
 }

@@ -57,9 +57,9 @@ a {
 }
 
 h5 {
-    display: block;
+    display: flex;
     font-size: 0.83em;
-    margin-block-start: 1px; 
+    margin-block-start: 1px;
     margin-block-end: 1em;
     margin-inline-start: 60px;
     padding-bottom: 10px;

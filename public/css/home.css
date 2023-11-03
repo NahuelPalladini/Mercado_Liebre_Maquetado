@@ -131,7 +131,12 @@ footer{
         margin: auto;
     }
 
-    
+    .main_banner {
+        height: 150px;
+        display: flex;
+        position: relative;
+        bottom: 20px;
+    }
 
    
 
