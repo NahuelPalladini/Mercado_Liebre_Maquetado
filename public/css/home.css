@@ -77,13 +77,14 @@ main {
 
 footer{
     background-color: #ffffff;
-    margin: 10px; 
+    margin: 10px;
 }
  .footer_section {
-    padding: 15px;
+    padding: 10px;
     margin: 10px 5px;
     text-align: center;
     text-indent: 15px;
+    margin-top: -6px;
 }
 
 .footer_section i {
@@ -99,12 +100,11 @@ footer{
 }
 
 .footer_section p {
-    font-size: 14px;
+    font-size: 15px;
     margin: 0px;
     padding: 0px;
-    margin-block-start: 0em;
-    margin-inline-start: 10px;
-
+    margin-block-start: 2em;
+    margin-inline-start: 1px;
 }
 
 .footer_section h4 {
