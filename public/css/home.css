@@ -158,6 +158,10 @@ footer{
         position: relative;
         top: 85px;
     }
+
+    h3 {
+        width: 100%;
+    }
 }
 
 
