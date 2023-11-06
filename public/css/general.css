@@ -73,12 +73,7 @@ h3{
     color: var(--colorGrisOscuro);
     text-align: center;
 }
-h4{
-   font-size: 16px; 
-   color: var(--colorGrisOscuro);
-  padding: 10px 0;
-  display: none;
-}
+
 
 p {
     font-size: 16px;

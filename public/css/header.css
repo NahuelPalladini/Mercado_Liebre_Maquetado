@@ -127,6 +127,10 @@
   bottom: 55px;
 }
 
+.text {
+  font-size: 13px;
+}
+
 .hamburguesa {
   display: none;
 }
@@ -156,12 +160,18 @@
 }
 }
 
-/* DESCKTOP */
-@media (min-width: 1440px) {
 
-  .header{
+
+/* DESCKTOP */
+@media (min-width: 1024px) {
+
+   .header{
     height: 250px;
-    position: relative;
+    display: block;
+  }
+
+  .header__seccion {
+    bottom: 60px;
   }
 
   .header__logo{
@@ -171,12 +181,12 @@
 }
  
 .alineacion {
-  left: 600px;
-  bottom: 70px;
+  left: 460px;
+  bottom: 55px;
 }
 
 .text {
-  font-size: 20px;
+  font-size: 15px;
   padding: 10px;
 }
 
@@ -186,15 +196,15 @@
 }
 
 .compra_en_cuotas {
- font-size: 20px;
+ font-size: 15px;
  flex-direction: row;
  position: relative;
- right: 100px;
- bottom: 95px;
+ right:40px;
+ bottom: 80px;
 }
 
 .header__seccion ul li a{
- font-size: 20px;
+ font-size: 16px;
  margin: 10px;
 }
-}
+} 
