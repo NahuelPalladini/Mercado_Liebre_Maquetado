@@ -107,11 +107,13 @@ footer{
     margin-inline-start: 1px;
 }
 
-.footer_section h4 {
+/* .footer_section h4 {
     margin-bottom: 0;
     margin-block-start: 2em;
     margin-inline-start: 10px;
-} 
+    font-weight: 100;
+    font-size: 20px;
+}  */
 
 /* TABLET 768 X 768 */
 @media (min-width: 361px){
@@ -164,6 +166,14 @@ footer{
     }
 }
 
+@media (min-width: 1440px){
+ 
+    .main_banner {
+        height: 200px;
+    }
 
-
+    .main  {
+        height: 200%;
+    }
+}
 

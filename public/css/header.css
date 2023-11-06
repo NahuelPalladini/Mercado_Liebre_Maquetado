@@ -123,7 +123,7 @@
   height: 33px;
   align-items: center;
   position: relative;
-  left: 416px;
+  left: 400px;
   bottom: 55px;
 }
 
@@ -153,5 +153,48 @@
  position: relative;
  right: 20px;
  bottom: 75px;
+}
+}
+
+/* DESCKTOP */
+@media (min-width: 1440px) {
+
+  .header{
+    height: 250px;
+    position: relative;
+  }
+
+  .header__logo{
+    width: 35%;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+ 
+.alineacion {
+  left: 600px;
+  bottom: 70px;
+}
+
+.text {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.header__logo__busqueda  {
+  margin-left: -4px;
+  height: 25px;
+}
+
+.compra_en_cuotas {
+ font-size: 20px;
+ flex-direction: row;
+ position: relative;
+ right: 100px;
+ bottom: 95px;
+}
+
+.header__seccion ul li a{
+ font-size: 20px;
+ margin: 10px;
 }
 }
