@@ -1,0 +1,76 @@
+
+.box__card h3 {
+    top: 10px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin: 10px;
+}
+
+.form__box {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form__label {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: var(--colorGrisOscuro);
+}
+
+.form__input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #c0c0c0;
+    margin-top: 10px;
+    height: auto;
+}
+
+.form__msg-error {
+    color: red;
+    margin-left: 5px;
+}
+
+.form__box--compra-venta {
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: flex-start;
+
+}
+
+.box__end {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    right: 50px;
+}
+
+.button {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button__primary {
+    background-color: var(--colorCeleste);
+    color: white;
+}
+
+.button__secondary {
+    background-color: var(--colorGrisOscuro);
+   color: white;
+}
+
+@media (min-width:768px) {
+    .form__box {
+        width: 48%;
+        flex-direction: column;
+    }
+    .form__label {
+        width: 48%;
+    }
+}
